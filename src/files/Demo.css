@@ -1,0 +1,103 @@
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+ 
+  
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  height: 300px;
+  width: 200px;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+  
+
+.main{
+    margin-top: 20%;
+}
+.xo2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.do1,.do2,.do3{
+  height: 100px;
+  width: 100px;
+}
+.demo1,.demo,.demo3{
+  display: flex;
+  gap: 10px;
+ 
+}
+.demo:hover{
+  border: 1px solid white;
+  width: 400px;
+  background-color: wheat;
+  transform: scale(1.1);
+  box-shadow: 0 3px 0px rgp(196,194,194) ;
+}
+.demo{
+  border: 1px solid wheat;
+  width: 400px;
+  background-color: wheat;
+  border-radius: 10px;
+}
+.over{
+  display: flex;
+  gap: 50px;
+  margin-top: 3%;
+  /* margin-left: -50%; */
+
+}
+.demo1{
+   border: 1px solid lightgreen;
+  width: 400px;
+  background-color: lightgreen;
+  border-radius: 10px;
+}
+.demo1:hover{
+  border: 1px solid lightgreen;
+  width: 400px;
+  background-color: lightgreen;
+  transform: scale(1.1);
+  box-shadow: 0 3px 0px rgp(196,194,194) ;
+}
+.demo3{
+   border: 1px solid lightyellow;
+  width: 400px;
+  background-color: lightyellow;
+  border-radius: 10px;
+}
+.demo3:hover{
+  border: 1px solid lightyellow;
+  width: 400px;
+  background-color: lightyellow;
+  transform: scale(1.1);
+  box-shadow: 0 3px 0px rgp(196,194,194) ;
+}
+.do21{
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 5%;
+}

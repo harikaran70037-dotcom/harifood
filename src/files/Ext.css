@@ -1,0 +1,122 @@
+
+
+.pto1{
+    height: 280px;
+}
+.clr{
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.heads{
+    display: flex;
+    gap: 30px;
+    margin-top: 10%;
+    /* margin-left: 5%; */
+    border: 1px solid lightyellow;
+    width: 100%;
+    padding-left: 100px;
+    padding-top: 100px; 
+    background-color: lightslategrey;
+    border-radius: 10px;
+}
+.raf{
+    display: flex;
+    gap: 20px;
+    /* margin-left: 5%; */
+    border:1px solid lightyellow ;
+    padding-left: 100px;
+    background-color: lightyellow;
+    height: 450px;
+    position: relative;
+    top: 100px;
+    /* line-height: 100px; */
+    
+}
+.zero{
+    position: relative;
+    top: 100px;
+    /* border:1px solid black ; */
+}
+.up{
+    position: relative;
+    top: -100px;
+}
+.do35{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    position: relative;
+    top: 100px;
+}
+.flx{
+    display: flex;
+    gap: 10px;
+    margin-left: 5%;
+    font-size: 20px;
+    
+}
+.flxx{
+    margin-top: 20%;
+}
+.bts1,.bts2,.bts3,.bts4,.bts5{
+    border: solid lightyellow;
+    background-color: lightyellow;
+}
+.flx1{
+    margin-top: 1%;
+    margin-left: 5%;
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+
+}
+.flx2,.flx3{
+    margin-top: 1%;
+    margin-left: 5%;
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    
+
+}
+.do36{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: 200px;
+    margin-left: 3%;
+}
+.overall{
+    display: flex;
+    gap: 60px;
+    margin-left: 5%;
+}
+.overall2{
+    display: flex;
+    margin-left: 5%;
+    gap: 60px;
+}
+.ii{
+    margin-top: 25%;
+    gap: 30px;
+    
+}
+.g1:hover{
+ color: gray;
+}
+.g2:hover{
+ color: gray;
+}.g3:hover{
+ color: gray;
+}.g4:hover{
+ color: gray;
+}.g5:hover{
+ color: gray;
+}
+.hari{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+margin-left: 50%;}
+.rg1:hover{
+  
+   color: gray;
+}
