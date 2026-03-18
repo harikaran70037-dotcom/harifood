@@ -4,6 +4,7 @@ import '../files/Nav.css'
 import { Link } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
 import nan2 from '../images/nan2.jpg'
+import CartPage from './Cartpage'
 const Nav = () => {
 
 
@@ -43,7 +44,7 @@ const Nav = () => {
           <i class="fa-regular fa-heart"></i>
         </div>
         <div>
-          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" className='no7'><p className='clk'>THANK YOU</p></button>
+          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" className='no7'><p className='clk'><i class="fa-solid fa-cart-arrow-down"></i> cart</p></button>
 
 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
   <div class="offcanvas-header">
@@ -51,7 +52,7 @@ const Nav = () => {
     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body" >
-    <img className='nan2' src={nan2} alt=''/>
+   <CartPage/>
   </div>
 </div>
         </div>

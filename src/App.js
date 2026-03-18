@@ -15,12 +15,15 @@ import Snaks from './files/Snaks';
 import Sweet from './files/Sweet';
 import Vegfood from './files/Vegfood';
 import Nonveg from './files/Nonveg';
+import CartPage from './files/Cartpage';
+
 function App() {
   return (
     <div  className='fullproject'>
       <BrowserRouter>
     
       <Nav/>
+    
       
       
       <Routes>
@@ -32,7 +35,12 @@ function App() {
        <Route path='/sweet'element={<Sweet/>}/>
        <Route path='/vegfood'element={<Vegfood/>}/>
        <Route path='/nonveg' element ={<Nonveg/>}/>
+       <Route path='/cartpage' element={<CartPage/>}/> 
+     
 </Routes>
+
+
+
      </BrowserRouter>
    
     </div>

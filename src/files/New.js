@@ -37,7 +37,7 @@ const New = [
         img: frt4,
         title: "Fresh Guava",
         price: "₹100",
-        description: "Farm-fresh guavas rich in fiber and vitamin C. Ideal for boosting immunity. guavas rich in fiber and vitamin C. Ideal for boosting immunity"
+        description: "Farm-fresh guavas rich in fiber and vitamin C. Ideal for boosting immunity Ideal for boosting immunity. guavas rich in fiber and vitamin C. Ideal for boosting immunity"
     },
     {
         id: 5,

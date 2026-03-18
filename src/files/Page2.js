@@ -64,7 +64,7 @@ const Page2 = [
         title: "Premium Quality Potatoes",
         price: "₹50",
         loc: "Salem",
-        description: "Carefully selected potatoes ensuring freshness and quality for daily kitchen needs."
+        description: "Carefully selected potatoes ensuring freshness and quality for daily kitchen."
     },
     {
         id: 8,
